@@ -69,3 +69,51 @@ main{
   margin-bottom: 60px;
 }
 
+
+.section-1-text-4{
+  font-size: 13px;
+  max-width: 85%;
+  min-height: 100px;
+
+  margin: auto;
+
+}
+
+.section-1-container-btm-left{
+  padding-top: 45px;
+}
+
+.schedule-btn-1{
+  margin-bottom:20px;
+}
+
+.schedule-btn-2{
+    margin-bottom:20px;
+}
+
+.section-2-background{
+  background-image: url("../public/images/meryan.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+  
+@media (min-width: 0px) and (max-width: 575.98px) { 
+  .section-2-background{
+    min-height: 120vw;
+  }
+  .section-2-background-2{
+    min-height: 70vw;
+  }
+  .schedule-btn-2{
+    margin-bottom: 40px;
+  }
+}
+  
+@media (min-width: 0px) and (max-width: 991.98px) { 
+  .section-1-container-top-left {
+    margin-bottom: -50px;
+  }
+}
+
+
