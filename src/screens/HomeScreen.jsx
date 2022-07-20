@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import SectionOne from '../components/SectionOne'
 import {Row, Col} from "react-bootstrap"
 import SectionTwo from '../components/SectionTwo'
+import SectionThree from '../components/SectionThree'
 
 const HomeScreen = () => {
   return (
@@ -17,6 +18,9 @@ const HomeScreen = () => {
     </Row>
     <Row className="vw-100">
         <SectionTwo/>
+    </Row>
+    <Row className="vw-100">
+        <SectionThree/>
     </Row>
     </>
   )

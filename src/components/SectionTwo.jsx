@@ -21,10 +21,10 @@ const SectionTwo = () => {
                 <Col>
                     <div className="section-1-container-btm-right text-center text-light">
                         <p className="section-1-text-3 w-100">Free course for latinas</p>
-                        <p className="section-1-text-4 w-100">
+                        <p className="section-1-text-4 w-100" style={{maxWidth:"550px"}}>
                         An 8-week beginner-friendly course for latin girls that will help you learn the fundamentals to start working online or grow their business through coaching, problem-solving and community activity.
                         </p>
-                        <Button className="Apply-btn" variant="dark btn">Apply</Button>
+                        <Button className="px-5 mt-1 btn-outline-light btn" variant="dark btn">Apply</Button>
                     </div>    
                 </Col>
             </Row>
