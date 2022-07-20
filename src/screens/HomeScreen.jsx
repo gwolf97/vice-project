@@ -1,9 +1,11 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import SectionOne from '../components/SectionOne'
+import SectionOne from '../components/Home/SectionOne'
 import {Row, Col} from "react-bootstrap"
-import SectionTwo from '../components/SectionTwo'
-import SectionThree from '../components/SectionThree'
+import SectionTwo from '../components/Home/SectionTwo'
+import SectionThree from '../components/Home/SectionThree'
+import SectionFour from '../components/Home/SectionFour'
+import SectionFive from '../components/Home/SectionFive'
 
 const HomeScreen = () => {
   return (
@@ -21,6 +23,12 @@ const HomeScreen = () => {
     </Row>
     <Row className="vw-100">
         <SectionThree/>
+    </Row>
+    <Row className="vw-100">
+        <SectionFour/>
+    </Row>
+    <Row className="vw-100">
+        <SectionFive/>
     </Row>
     </>
   )
