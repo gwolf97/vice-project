@@ -10,6 +10,11 @@ code {
     monospace;
 }
 
+.navbar{
+  height: 80px;
+}
+
+
 .custom-collapse{
   border: none;
   background-color: transparent;

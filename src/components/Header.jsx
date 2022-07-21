@@ -6,17 +6,17 @@ import Hamburger from 'hamburger-react';
 function Header() {
     return (
       <>
-        <Navbar expand="lg" style={{backgroundColor:"black"}}>
+        <Navbar bsPrefix="navbar" expand="lg" style={{backgroundColor:"black"}}>
           <Container>
             <LinkContainer to="/">
-               <Navbar.Brand style={{fontFamily: 'Inter', fontWeight:"800"}} className="text-light mx-lg-3">MERYAN VICE</Navbar.Brand>
+               <Navbar.Brand style={{fontFamily: 'Inter', fontWeight:"800"}} className="text-light mx-lg-3 mx-sm-2">MERYAN VICE</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle  className="p-0 m-0 text-light d-lg-none black" aria-controls="responsive-navbar-nav">
                 <Hamburger/>
             </Navbar.Toggle>
             <Navbar.Collapse  id="basic-navbar-nav">
-              <Nav className="ml-auto" >
-                <LinkContainer clasName="text-right" to="/">
+              <Nav className="ml-auto position-relative">
+                <LinkContainer clasName="text-light" to="/">
                     <Nav.Link
                      className="text-light mx-lg-3" bsPrefix="nav-links-text" >HOME</Nav.Link>
                 </LinkContainer>
