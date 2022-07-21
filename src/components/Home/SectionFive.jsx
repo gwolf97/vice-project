@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Row, Container, Button} from "react-bootstrap"
 import { Link } from 'react-router-dom'
+import Fade from 'react-reveal/Fade';
 
 const SectionFive = () => {
   return (
@@ -10,7 +11,9 @@ const SectionFive = () => {
         <Row>
             <Col style={{position:"relative"}} xs={12}>
                 <div className="text-center">
+                    <Fade>
                     <Button className="btn px-1 py-0 btn-outline-light" style={{opacity:"1", backgroundColor:"Transparent", fontSize:"3vw"}}>PERSONAL BRANDING</Button>
+                    </Fade>
                 </div>
             </Col>
             <Col>

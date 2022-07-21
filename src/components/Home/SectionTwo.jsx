@@ -1,5 +1,6 @@
 import React from 'react'
 import {Col, Row, Container, Button} from "react-bootstrap"
+import Fade from "react-reveal/Fade"
 
 const SectionTwo = () => {
   return (
@@ -9,7 +10,9 @@ const SectionTwo = () => {
             <Row>
                 <Col>
                     <div>
+                    <Fade >
                         <h3 style={{fontSize:"max(2.5vw, min(20px))", fontFamily:"nexabold"}} className=" text-center text-light">Become a Successful Female Entrepreneur</h3>
+                    </Fade>
                     </div>
                 </Col>
             </Row>
@@ -20,11 +23,13 @@ const SectionTwo = () => {
             <Row>
                 <Col>
                     <div className="section-1-container-btm-right text-center text-light">
+                        <Fade>
                         <p className="section-1-text-3 w-100" style={{fontFamily:"nexa"}}>Free course for latinas</p>
                         <p className="section-1-text-4 w-100" style={{maxWidth:"550px", fontFamily:"nexa"}}>
                         An 8-week beginner-friendly course for latin girls that will help you learn the fundamentals to start working online or grow their business through coaching, problem-solving and community activity.
                         </p>
                         <Button className="px-5 mt-1 btn-outline-light btn" variant="dark btn">Apply</Button>
+                        </Fade>
                     </div>    
                 </Col>
             </Row>
