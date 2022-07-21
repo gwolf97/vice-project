@@ -6,9 +6,9 @@ const Footer = () => {
     <footer style={{backgroundColor:"black", paddingBottom:"20px"}}>
         <Container>
             <Row>
-                    <Col className="text-center py-3 text-light">
-                        <p className="footer-text1">Let's create something together!<br/>
-                        <a type="email" href='mailto:info@meryanvice.com' className="footer-text2">info@meryanvice.com</a></p>
+                    <Col className="text-center py-3 text-light" >
+                        <p className="footer-text1" style={{fontFamily:"nexa"}}>Let's create something together!<br/>
+                        <a type="email" href='mailto:info@meryanvice.com' style={{fontFamily:"nexa"}} className="footer-text2">info@meryanvice.com</a></p>
                     </Col>
             </Row>  
              <Row>

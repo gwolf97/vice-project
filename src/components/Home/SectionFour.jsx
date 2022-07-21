@@ -1,6 +1,5 @@
 import React from 'react'
 import {Col, Row, Container, Button} from "react-bootstrap"
-import { LinkContainer } from 'react-router-bootstrap'
 import { Link } from 'react-router-dom'
 
 const SectionFour = () => {
@@ -16,7 +15,7 @@ const SectionFour = () => {
             </Col>
             <Col>
                  <Link className="bottomleft" to="/" style={{textDecoration:"none"}}>
-                        <h3 className="text-light" style={{fontSize:"3vw"}} >See more</h3>
+                        <h3 className="text-light" style={{fontSize:"3vw", fontFamily:"nexa"}} >See more</h3>
                 </Link>
             </Col>
         </Row>

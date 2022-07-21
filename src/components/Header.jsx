@@ -9,7 +9,7 @@ function Header() {
         <Navbar bsPrefix="navbar" expand="lg" style={{backgroundColor:"black"}}>
           <Container>
             <LinkContainer to="/">
-               <Navbar.Brand style={{fontFamily: 'Inter', fontWeight:"800"}} className="text-light mx-lg-3 mx-sm-2">MERYAN VICE</Navbar.Brand>
+               <Navbar.Brand style={{fontFamily: 'inter', fontWeight:"800"}} className="text-light mx-lg-3 mx-sm-2"><span style={{fontSize:"max(2vw,min(24px))"}}>MERYAN VICE</span></Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle  className="p-0 m-0 text-light d-lg-none black" aria-controls="responsive-navbar-nav">
                 <Hamburger/>
