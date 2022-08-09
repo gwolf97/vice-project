@@ -24,10 +24,10 @@ const HomeScreen = () => {
     <Row className="vw-100">
         <SectionThree/>
     </Row>
-    <Row className="vw-100">
+    <Row>
         <SectionFour/>
     </Row>
-    <Row className="vw-100">
+    <Row>
         <SectionFive/>
     </Row>
     </>

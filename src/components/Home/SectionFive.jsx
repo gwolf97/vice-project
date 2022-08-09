@@ -1,30 +1,13 @@
 import React from 'react'
-import {Col, Row, Container, Button} from "react-bootstrap"
-import { Link } from 'react-router-dom'
-import Fade from 'react-reveal/Fade';
+import {Col} from "react-bootstrap"
+import BGvideo from '../BGvideo';
+import videoSrc from "../../assets/personalbranding.mp4"
 
 const SectionFive = () => {
   return (
-    <div className='bg-dark underlay d-flex justify-content-center flex-column align-items-center vw-100'>
-    <Col className='section-5-background d-flex justify-content-center flex-column align-items-center vw-100' xs={12} fluid style={{height:"40vw"}}>
-    <Container>
-        <Row>
-            <Col style={{position:"relative"}} xs={12}>
-                <div className="text-center">
-                    <Fade>
-                    <Button className="btn px-1 py-0 btn-outline-light" style={{opacity:"1", backgroundColor:"Transparent", fontSize:"3vw"}}>PERSONAL BRANDING</Button>
-                    </Fade>
-                </div>
-            </Col>
-            <Col>
-                 <Link className="bottomleft" to="/" style={{textDecoration:"none"}}>
-                        <h3 className="text-light" style={{fontSize:"3vw", fontFamily:"nexa"}} >See more</h3>
-                </Link>
-            </Col>
-        </Row>
-    </Container>
+    <Col xs={12}>
+        <BGvideo seeMore={true} src={videoSrc} title={"PERSONAL BRANDING"}/>
     </Col>
-    </div>
   )
 }
 
